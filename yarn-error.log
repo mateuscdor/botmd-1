@@ -1,0 +1,54 @@
+Arguments: 
+  /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/share/yarn/bin/yarn.js add acrcloud
+
+PATH: 
+  /data/data/com.termux/files/usr/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  17.4.0
+
+Platform: 
+  android arm
+
+Trace: 
+  Error: EPERM: operation not permitted, symlink '../../../../pino/bin.js' -> '/storage/emulated/0/sip/node_modules/@adiwajshing/baileys-md/node_modules/.bin/pino'
+
+npm manifest: 
+  {
+    "name": "wa-md",
+    "version": "1.0.0",
+    "description": "No Description",
+    "main": "index.js",
+    "directories": {
+      "lib": "lib"
+    },
+    "scripts": {
+      "start": "node index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kizakixd/Wa-Md.git"
+    },
+    "bugs": {
+      "url": "https://github.com/kizakixd/Wa-Md/issues"
+    },
+    "license": "ISC",
+    "dependencies": {
+      "@adiwajshing/baileys-md": "github:adiwajshing/baileys#multi-device",
+      "acrcloud": "^1.4.0",
+      "axios": "^0.24.0",
+      "file-type": "^16.5.2",
+      "form-data": "^4.0.0"
+    },
+    "author": "Zaki",
+    "homepage": "https://github.com/kizakixd/Wa-Md"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
